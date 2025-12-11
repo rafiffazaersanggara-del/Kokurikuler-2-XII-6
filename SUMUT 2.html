@@ -1,0 +1,423 @@
+<!doctype html>
+<html lang="id">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Mengenal Kebudayaan Sumatera</title>
+    <meta name="description"
+        content="Ringkasan kebudayaan Pulau Sumatera: suku, bahasa, seni, rumah adat, pakaian, kuliner, upacara, musik dan tari.">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #1c397e;
+            /* slate-900 */
+            --card: #536aa0;
+            /* gray-900 */
+            --text: #000000;
+            /* gray-200 */
+            --muted: #94a3b8;
+            /* slate-400 */
+            --accent: #f59e0b;
+            /* amber-500 */
+            --link: #18365a;
+            /* blue-400 */
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+            background: var(--bg);
+            color: var(--text);
+            font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, 'Helvetica Neue', Arial, sans-serif;
+        }
+
+        a {
+            color: var(--link);
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        header {
+            padding: 3rem 1.25rem;
+            text-align: center;
+            border-bottom: 1px solid #1f2937;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2rem;
+            line-height: 1.2;
+        }
+
+        header p {
+            margin: 0.75rem auto 0;
+            max-width: 56rem;
+            color: var(--muted);
+        }
+
+        nav {
+            margin-top: 1rem;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 0.5rem;
+        }
+
+        nav a {
+            padding: 0.5rem 0.75rem;
+            border: 1px solid #1f2937;
+            border-radius: 999px;
+            font-size: 0.875rem;
+            background: #124626;
+        }
+
+        main {
+            max-width: 68rem;
+            margin: 0 auto;
+            padding: 2rem 1.25rem 4rem;
+            display: grid;
+            gap: 1.5rem;
+        }
+
+        section {
+            background: var(--card);
+            border: 1px solid #0f233e;
+            border-radius: 0.75rem;
+            padding: 1.25rem;
+        }
+
+        section h2 {
+            margin: 0 0 0.75rem;
+            font-size: 1.25rem;
+        }
+
+        section p {
+            margin: 0.5rem 0;
+            color: var(--text);
+        }
+
+        ul,
+        ol {
+            margin: 0.75rem 0 0.25rem 1.25rem;
+            color: var(--text);
+        }
+
+        .tag {
+            display: inline-block;
+            font-size: 0.75rem;
+            color: var(--muted);
+            border: 1px dashed #334155;
+            border-radius: 0.5rem;
+            padding: 0.15rem 0.5rem;
+            margin-right: 0.35rem;
+        }
+
+        .source {
+            font-size: 0.875rem;
+            color: var(--muted);
+            margin-top: 0.75rem;
+        }
+
+        .cta {
+            display: flex;
+            gap: 0.5rem;
+            margin-top: 1rem;
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.4rem;
+            padding: 0.5rem 0.9rem;
+            border-radius: 0.6rem;
+            border: 1px solid #1f2937;
+            background: #0b1220;
+            color: var(--text);
+            font-weight: 600;
+        }
+
+        .btn:hover {
+            background: #0f1a2b;
+        }
+
+        footer {
+            padding: 1.5rem;
+            text-align: center;
+            border-top: 1px solid #1f2937;
+            color: var(--muted);
+        }
+
+        .grid-2 {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 1rem;
+        }
+
+        @media (min-width: 768px) {
+            header h1 {
+                font-size: 2.5rem;
+            }
+
+            .grid-2 {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+
+        .highlight {
+            border-left: 4px solid var(--accent);
+            padding-left: 0.75rem;
+            background: #0c1426;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Mengenal Kebudayaan Pulau Sumatera</h1>
+        <p>Halaman ringkasan untuk memperkenalkan kekayaan budaya di Pulau Sumatera: suku dan bahasa, seni tradisi,
+            rumah adat, pakaian, kuliner, upacara, serta musik dan tarian. Isi setiap bagian dengan poin-poin dari
+            naskah asli.</p>
+        <nav>
+            <a href="#pulau">Pulau & wilayah</a>
+            <a href="#suku">Suku & bahasa</a>
+            <a href="#seni">Seni tradisi</a>
+            <a href="#rumah-adat">Rumah adat</a>
+            <a href="#pakaian">Pakaian adat</a>
+            <a href="#kuliner">Kuliner</a>
+            <a href="#upacara">Upacara adat</a>
+            <a href="#musik-tari">Musik & tari</a>
+            <a href="#glosarium">Glosarium</a>
+            <a href="#referensi">Referensi</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="pulau" class="highlight">
+            <h2>Pulau Sumatera dan wilayah budaya</h2>
+            <img src="pulau sumatera.jpeg" alt="pulau Sumatera">
+            <p><span class="tag">Ringkasan</span> Tulis gambaran umum: letak geografis, provinsi, garis besar sejarah
+                migrasi, serta pengaruh budaya (Melayu, Minangkabau, Batak, Aceh, dll.).</p>
+            <ul>
+                <li><strong>Letak:</strong> bagian barat gugusan kepulauan Nusantara, membentang di antara 6°LU - 6°LS
+                    dan 95°BT - 109°BT, dilewati garis khatulistiwa, dengan batas utara Teluk Benggala/Asia,
+                    timur Selat Malaka/Kalimantan, selatan Selat Sunda/Jawa, dan barat Samudra Hindia</li>
+                <li><strong>Provinsi:</strong> Sumatera </li>
+                <li><strong>Pengaruh historis:</strong> Pengaruh utamanya mencakup peran sebagai pusat perdagangan
+                    maritim,
+                    penyebaran agama Islam, dan pusat kerajaan besar seperti Sriwijaya dan Aceh. </li>
+            </ul>
+            <div class="source">Sumber: Dokumen “Mengenal Kebudayaan Pulau Sumatera” (Scribd)</div>
+        </section>
+
+        <section id="suku">
+            <h2>Suku dan bahasa</h2>
+            <img src="suku dan bahasa.jpeg" alt="Suku di Sumatera">
+            <div class="grid-2">
+                <div>
+                    <p><span class="tag">Suku</span> Daftar suku utama dan sebaran: Aceh, Batak (Toba, Karo, Simalungun,
+                        Mandailing, Pakpak), Minangkabau, Melayu, Rejang, Lampung, Komering, dsb.</p>
+                    <ul>
+                        <li><strong>Suku:</strong> Aceh, Batak (Toba, Karo, Simalungun, Mandailing, Pakpak),
+                            Minangkabau, Melayu, Rejang, Lampung</li>
+                        <li><strong>Sebaran:</strong> Aceh, Sumatera Utara, Sumatera Barat, Lampung</li>
+                    </ul>
+                </div>
+                <div>
+                    <p><span class="tag">Bahasa</span> Kelompok bahasa dan ciri: rumpun Austronesia, ragam Melayu,
+                        bahasa daerah (contoh kosakata, sistem tulisan tradisi bila ada).</p>
+                    <ul>
+                        <li><strong>Rumpun:</strong> Aceh: Austronesia (Melayu-Polinesia Barat).
+
+                            Batak (Toba, Karo, Simalungun, Mandailing, Pakpak): Austronesia → rumpun Batak.
+
+                            Minangkabau: Austronesia → Melayu.
+
+                            Melayu: Austronesia → Melayu.
+
+                            Rejang: Austronesia (cabang tersendiri/unik).
+
+                            Lampung: Austronesia → Lampungic.</li>
+                        <li><strong>Ragam lokal:</strong> Aceh: Bahasa Aceh/Gayo, Tari Saman & Seudati, Rumoh Aceh, adat
+                            sangat dipengaruhi Islam.
+
+                            Batak: (Toba, Karo, Simalungun, Mandailing, Pakpak) Bahasa Batak, rumah adat berbeda tiap
+                            sub-suku, tari Tortor, adat Dalihan Na Tolu dan tradisi khas masing-masing.
+
+                            Minangkabau: Bahasa Minang, Rumah Gadang, Tari Piring, adat matrilineal dan budaya merantau.
+
+                            Melayu: Bahasa Melayu, rumah limas/selaso, seni zapin & pantun, adat pesisir.
+
+                            Rejang: Bahasa Rejang, Umah Rejang, Tari Kejei, tulisan KaGaNga, adat pedalaman Bengkulu.
+
+                            Lampung: Bahasa Lampung (Api & Nyo), Nuwo Sesat, Tari Melinting, adat kebuayan & siger.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="seni">
+            <h2>Seni tradisi</h2>
+            <img src="didong.jpeg" alt="seni sumatera3">
+            <p><span class="tag">Seni</span> Uraikan seni pertunjukan (randai, didong, tortor), sastra lisan (pantun,
+                gurindam, kaba), kriya (songket, ukiran gorga, kerajinan kulit kayu).</p>
+            <ul>
+                <li><strong>Pertunjukan:</strong> Didong (Gayo – Aceh)</li>
+                <li><strong>Sastra lisan:</strong> Hahiwang (Aceh)</li>
+                <li><strong>Kriya:</strong> Kerajinan rotan Rejang </li>
+            </ul>
+        </section>
+
+        <section id="rumah-adat">
+            <h2>Rumah adat</h2>
+            <img src="rumah adat.jpeg" alt="rumah adat">
+            <p><span class="tag">Arsitektur</span> Ciri rumah adat: Rumah Gadang (Minangkabau), Krong Bade (Aceh), Bolon
+                (Batak), Limas (Palembang), Nuwo Sesat (Lampung).</p>
+            <ul>
+                <li><strong>Bentuk & filosofi:</strong> Rumah Gadang adalah rumah panggung memanjang dengan atap gonjong
+                    seperti tanduk kerbau; bentuknya melambangkan kemenangan, perlindungan, kebersamaan, serta nilai
+                    adat matrilineal Minangkabau.
+                </li>
+                <li><strong>Bahan & teknik:</strong> Rumah Gadang dibuat dari kayu (surian atau jati), ijuk untuk atap,
+                    anyaman bambu untuk dinding, serta pasak kayu sebagai sambungan.
+                    Teknik pembangunannya memakai sambungan tanpa paku, rumah dibuat panggung di atas tiang, dan atap
+                    dipasang berlapis membentuk gonjong.
+                </li>
+            </ul>
+        </section>
+
+        <section id="pakaian">
+            <h2>Pakaian adat</h2>
+            <img src="Ulos Batak.jpeg" alt="ulos Batak">
+            <p><span class="tag">Busana</span> Jelaskan bahan (songket, ulos), motif, fungsi upacara, dan perbedaan
+                gender/daerah.</p>
+            <ul>
+                <li><strong>Bahan utama:</strong> terbuat dari benang kapas, benang sutra, atau benang campuran yang
+                    ditenun.</li>
+                <li><strong>Motif & makna:</strong> Bintang Maratur: hidup tertata dan harmonis,
+
+                           Ragi Hotang: kekuatan dan persatuan,
+
+                           Ragi Idup: kehidupan dan doa berkat,
+
+                           Sibolang: ketabahan dan kewibawaan,
+
+                           Mangiring: harapan masa depan yang baik.</li>
+                <li><strong>Acara pemakaian:</strong> digunakan pada pernikahan, kelahiran, kematian, dan upacara adat Batak melalui pemberian ulos (mangulosi) sebagai simbol kasih dan restu</li>
+            </ul>
+        </section>
+
+        <section id="kuliner">
+            <h2>Kuliner khas</h2>
+            <img src="rendang.jpeg" alt="makanan khas">
+            <p><span class="tag">Makanan</span> Hidangan ikonik: rendang, gulai, mie Aceh, sate Padang, pempek,
+                tempoyak, seruit, kopi Aceh/Gayo.</p>
+            <ul>
+                <li><strong>Hidangan:</strong>Rendang</li>
+                <li><strong>Bahan & teknik:</strong> Rendang dibuat dari daging sapi, santan, dan rempah seperti cabai, bawang, jahe, kunyit, lengkuas, serta serai. Tekniknya dimasak lama dengan api kecil hingga santan mengering dan bumbu meresap,
+                     sehingga menghasilkan rendang yang kering, pekat, dan tahan lama.</li>
+                <li><strong>Asal daerah:</strong> Minangkabau, Sumatera Barat</li>
+            </ul>
+        </section>
+
+        <section id="upacara">
+            <h2>Upacara adat</h2>
+            <img src="upacara adat.jpeg" alt="upacara adat">
+            <p><span class="tag">Adat & ritual</span> Contoh: perkawinan Minangkabau (matrilineal), adat Batak (dalihan
+                na tolu), kenduri Aceh, tradisi Melayu pesisir.</p>
+            <ul>
+                <li><strong>Nama upacara:</strong>Sigale-gale</li>
+                <li><strong>Tahapan:</strong> Persiapan patung Sigale-gale dan memakaikannya pakaian adat.
+
+Pemanggilan gondang sebagai tanda upacara dimulai.
+
+Pemanggilan roh secara simbolis oleh pemuka adat.
+
+Patung Sigale-gale digerakkan untuk menari Tortor.
+
+Keluarga ikut menari Tortor mengelilingi patung.
+
+Upacara ditutup dengan menghentikan gondang dan menurunkan patung.</li>
+                <li><strong>Simbol & nilai:</strong> Simbol dan nilai Sigale-gale: patung melambangkan kehadiran roh orang yang meninggal, tarian Tortor sebagai penghormatan terakhir, dan gondang sebagai penghubung dengan leluhur. 
+                    Upacara ini mengandung nilai penghormatan, kebersamaan, solidaritas keluarga, dan keikhlasan</li>
+            </ul>
+        </section>
+
+        <section id="musik-tari">
+            <h2>Musik dan tari</h2>
+            <img src="tari dan musik sumatera.jpeg" alt="Musik tari Sumatera">
+            <div class="grid-2">
+                <div>
+                    <p><span class="tag">Musik</span> Instrumen: rabana/rapai, gondang, talempong, serunai. Skala, pola
+                        ritme, fungsi sosial.</p>
+                    <ul>
+                        <li><strong>Instrumen:</strong> talempong, gandang (gendang), saluang, dan kadang-kadang gong kecil.</li>
+                        <li><strong>Gaya musik:</strong> ritme cepat dan enerjik, berpola repetitif, dengan irama khas Minangkabau yang membangun suasana semangat dan kegembiraan.</li>
+                    </ul>
+                </div>
+                <div>
+                    <p><span class="tag">Tari</span> Tari daerah: Saman, Tortor, Piring, Zapin, Seudati. Kostum,
+                        formasi, makna gerak.</p>
+                    <ul>
+                        <li><strong>Nama tari:</strong> Tari Piring</li>
+                        <li><strong>Deskripsi singkat:</strong> Tari Piring adalah tarian Minangkabau yang ditampilkan dengan memegang piring di kedua tangan. Gerakannya cepat dan lincah, melambangkan rasa syukur dan kegembiraan masyarakat setelah panen.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="glosarium">
+            <h2> Glosarium istilah</h2>
+            <img src="glosarium.jpeg" alt="glosarium Sumatera">
+            <ul>
+                <li><strong>Matrilineal:</strong> Batak</li>
+                <li><strong>Ulos:</strong> Kain tenun khas Batak sebagai simbol kasih, doa, dan restu</li>
+                <li><strong>Songket:</strong> Songket adalah kain tradisional yang ditenun dengan benang emas atau perak, sehingga menghasilkan motif yang berkilau dan mewah. Kain ini biasanya dipakai pada upacara adat dan pakaian resmi di beberapa daerah di Sumatera.</li>
+                <li><strong>Dalihan na tolu:</strong> adalah sistem adat masyarakat Batak Toba yang mengatur hubungan sosial dalam tiga peran utama:
+
+
+                            Hula-hula (pemberi istri)
+
+
+                            Dongan tubu (saudara sedarah)
+
+
+                            Boru (penerima istri)
+
+
+                            Sistem ini menjadi dasar tata krama, adat, dan cara bermasyarakat dalam budaya Batak.</li>
+            </ul>
+        </section>
+
+        <section id="Referensi">
+            <h2>Referensi</h2>
+            <p>.</p>
+            <ul>
+                <li><strong>Judul:</strong> Mengenal Kebudayaan Pulau Sumatera</li>
+                <li><strong>Disusun oleh:</strong> Alif Gilang Novansyah, Gavin Adyuta Mahorga, Mohammad Noor Muchsin Ilham, Rafif Faza Er Sanggara, Steven Hamonangan Sinambela<a
+                        href=""
+                        target="_blank" rel="noopener"></a> </li>
+                <li><strong>Network:</strong> SMA 5 TARUNA BRAWIJAYA</li>
+            </ul>
+            <div class="cta">
+                <a class="btn" href="#pulau">Mulai isi ringkasan</a>
+                <a class="btn" href="#referensi">Tambahkan sumber</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        © 2025 — Ringkasan Kebudayaan Sumatera. Disusun untuk tujuan edukasi.
+    </footer>
+</body>
+
+</html>
